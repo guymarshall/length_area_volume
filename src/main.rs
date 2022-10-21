@@ -25,8 +25,6 @@ fn cube_volume(length: f64) -> f64 {
 fn main() {
     let length: f64 = user_input::get_user_input("Enter length of side (for a circle, length is diameter): ");
 
-    // print area/volume of every shape
-
     println!("Square: area - {}", square_area(length));
     println!("Circle: area - {}", circle_area(length));
     println!("Equilateral triangle: area - {}", equilateral_triangle_area(length));
